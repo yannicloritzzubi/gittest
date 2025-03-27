@@ -25,7 +25,7 @@ func main() {
 func printGreeting(b bot) {
 	fmt.Println(b.getGreeting())
 }
-
+xx
 func (eb englishbot) getGreeting() string {
 	// Very custom logic for generating an English greeting
 	return "Hi There!"

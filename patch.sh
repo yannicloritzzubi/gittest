@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Get the latest tag
-latest_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
+latest_tag=$(git describe --tags $(git rev-list --tags --max-count=1) 2>/dev/null || echo "0.0.0")
 IFS='.' read -r major minor patch <<< "$latest_tag"
 
-# Increment the patch version
-patch=$((patch + 1))
+# Increment the minor version
+minor=$((patch + 1))
+patch=0
 
 # Create the new tag
 new_tag="$major.$minor.$patch"
