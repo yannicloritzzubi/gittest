@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pull the latest changes from the remote repository
+git pull origin $(git rev-parse --abbrev-ref HEAD)
+
 # Get the latest tag
 latest_tag=$(git describe --tags $(git rev-list --tags --max-count=1) 2>/dev/null || echo "1.0.0")
 IFS='.' read -r major minor patch <<< "$latest_tag"
