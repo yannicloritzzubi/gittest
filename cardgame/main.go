@@ -19,3 +19,4 @@ func main() {
 func returnString() string {
 	return "test"
 }
+x
