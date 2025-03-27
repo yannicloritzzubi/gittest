@@ -1,0 +1,1 @@
+Eichel6,Eichel7,Eichel8,Eichel9,Eichel10,Eichelunder,Eichelober,Eichelkönig,Eichelass,Schilden6,Schilden7,Schilden8,Schilden9,Schilden10,Schildenunder,Schildenober,Schildenkönig,Schildenass,Rosen6,Rosen7,Rosen8,Rosen9,Rosen10,Rosenunder,Rosenober,Rosenkönig,Rosenass,Schellen6,Schellen7,Schellen8,Schellen9,Schellen10,Schellenunder,Schellenober,Schellenkönig,Schellenass
